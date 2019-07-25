@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tweetation - {{ title }}</title>
+		<!-- CSS, keywords, meta goes here -->
+	</head>
+
+
+	<body>
+		<h1>Twitoff!</h1>
+		<p>Content for Tweetation will go here...</p>
+
+		<ul>
+			{% for user in users %}
+			<li> {{ user.name }}</li>
+			{% endfor %}
+		</ul>
+	</body>
+
+
+
+</html>
